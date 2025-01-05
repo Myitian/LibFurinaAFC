@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Example": {
+      "commandName": "Project",
+      "commandLineArgs": "-dec -i .\\Example.deps.json.afc -o -"
+    },
+    "配置文件 1": {
+      "commandName": "Project",
+      "commandLineArgs": "-i .\\Example.deps.json -o .\\Example.deps.json.afc -enc -blen 100 -klen 100000 -BlockSequenceMode stream"
+    }
+  }
+}
